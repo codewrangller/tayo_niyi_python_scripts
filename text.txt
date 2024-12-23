@@ -1,0 +1,1 @@
+"{% $join([$append('share/workmanager/Verint/FileImport/Watch/', $append($append($split($states.input.detail.object.key, '/')[0], '/'), $append($split($states.input.detail.object.key, '/')[1], '/'))), $append($join([$split($split($states.input.detail.object.key, '/')[2], '.')[0], $split($split($states.input.detail.object.key, '/')[2], '.')[1]], '.'), '/')], '') %}"
